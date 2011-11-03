@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/duerer-latex
+# catalog-date 2008-08-18 13:49:16 +0200
+# catalog-license gpl
+# catalog-version 1.1
 Name:		texlive-duerer-latex
 Version:	1.1
 Release:	1
@@ -43,6 +49,7 @@ standard fontname names.
 %doc %{_texmfdistdir}/doc/latex/duerer-latex/README
 %doc %{_texmfdistdir}/doc/latex/duerer-latex/duerer.pdf
 %doc %{_texmfdistdir}/doc/latex/duerer-latex/duerer.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ standard fontname names.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
