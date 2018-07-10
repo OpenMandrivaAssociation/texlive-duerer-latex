@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-duerer-latex
 Version:	1.1
-Release:	10
+Release:	11
 Summary:	LaTeX support for the Duerer fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/duerer-latex
