@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	LaTeX support for the Duerer fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/duerer-latex
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/duerer-latex
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/duerer-latex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/duerer-latex.doc.r%{version}.tar.xz
